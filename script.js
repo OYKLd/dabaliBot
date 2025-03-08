@@ -11,7 +11,7 @@ const sendButton = document.getElementById('send-button');
 
 async function generateResponse(prompt) {
     // Ajoutez des instructions spécifiques au domaine
-    const systemInstruction = "Tu es un assistant spécialisé en cuisine ivoirienne. Réponds aux questions concernant les recettes, les techniques culinaires, les ingrédients et l'histoire de la gastronomie ivoirienne. Si on te pose des questions hors sujet, ramène poliment la conversation vers la cuisine ivoirienne. Tes réponses ne doivent pas dépasser 200 mots.";
+    const systemInstruction = "Tu es un assistant spécialisé en anime et manga. Réponds aux questions sur les animes, mangas et leurs univers en moins de 200 mots. Si on te parle d'un autre sujet, ramène la conversation vers les animes.";
     
     const fullPrompt = systemInstruction + "\n\nQuestion de l'utilisateur: " + prompt;
     
